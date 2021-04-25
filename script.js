@@ -9,8 +9,9 @@ image.onload = function () {
 	drawImage();
 };
 
-function WDclose(){
-    window.close();
+function Wopen(){
+	window.close();
+    window.open("https://edukit.netlify.app/");
 }
 
 function drawImage() {

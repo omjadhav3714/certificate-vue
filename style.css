@@ -9,19 +9,32 @@
 }
 
 body {
-    background-color: #7cc6fe;
+    background-color: #f3f4f6;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
+#name {
+    border: 0px;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    border-bottom: 2px solid grey;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+}
+
+
 .h {
     padding-bottom: 150px;
 }
 
 .btn2 {
-    background: #54e346;
+    background: #F50057;
     color: #fff;
     border: none;
     position: relative;
@@ -38,7 +51,7 @@ body {
 
 .btn2:hover {
     background: #fff;
-    color: #54e346;
+    color: #F50057;
 }
 
 .btn2:before,
@@ -49,7 +62,7 @@ body {
     right: 0;
     height: 2px;
     width: 0;
-    background: #54e346;
+    background: #F50057;
     transition: 400ms ease all;
 }
 
